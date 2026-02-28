@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <type>AppPage</type>
+    <masterLabel>Profile Management</masterLabel>
+    <regions>
+        <name>top</name>
+        <prependable>false</prependable>
+        <replaceable>false</replaceable>
+        <type>Region</type>
+    </regions>
+    <regions>
+        <name>main</name>
+        <prependable>false</prependable>
+        <replaceable>false</replaceable>
+        <type>Region</type>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>allowGuestAccess</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentName>profileList</componentName>
+            <identifier>c_profileList</identifier>
+        </componentInstances>
+    </regions>
+    <SobjectType>Profile</SobjectType>
+    <template>
+        <name>flexipage_lwr_app_default_template</name>
+    </template>
+</FlexiPage>
