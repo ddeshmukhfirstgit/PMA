@@ -1,3 +1,4 @@
-public class AccountRetriever{
+
+public with sharing class AccountRetriever{
 
 }
